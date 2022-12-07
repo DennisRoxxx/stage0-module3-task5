@@ -3,8 +3,7 @@ package lang.print.gaps.task5;
 public class TimeConvertor {
     public void convert(float minutes) {
         
-        short seconds = 60;
-        minutes = 1 * 60;
+        minutes = 12.5F * 60;
         System.out.println(minutes);
     }
 }
